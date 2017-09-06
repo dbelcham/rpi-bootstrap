@@ -1,0 +1,3 @@
+scp -r setup-files/trimmed-blacklist.conf setup-files/rc.local setup-files/config.txt pirate@$1:
+ssh pirate@$1 'sudo apt-get -qq update; sudo apt-get -qq upgrade; sudo timedatectl set-timezone "America/Halifax";sudo mv trimmed-blacklist.conf /etc/modprobe.d; sudo cp config.txt /boot && sudo rm config.txt; sudo cp rc.local /etc && sudo rm rc.local; sudo reboot'
+echo Rebooting...
