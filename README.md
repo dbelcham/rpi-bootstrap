@@ -1,6 +1,6 @@
 ## Setps to run
-1. Download Hypriot image
-1. Use Etcher to burn image to SD Card
+1. Download Hypriot image (https://blog.hypriot.com/downloads/)
+1. Use Etcher (https://etcher.io/) to burn image to SD Card
 1. At shell run `touch /Volumes/Hypriot/ssh`
 1. Clone this repo
 1. Change to the local repo directory
